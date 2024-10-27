@@ -74,7 +74,7 @@ def summarize():
     spending_table = []
     cost_list = []
     print()
-    date_option = input("For which year and month would you like to view your spendings?(month(single digit)/year)")
+    date_option = input("For which year and month would you like to view your spendings?(month/year)")
     print()
     month, year = date_option.split("/")
     month_chart = {
